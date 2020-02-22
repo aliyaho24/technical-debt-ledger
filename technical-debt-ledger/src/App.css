@@ -1,7 +1,27 @@
 div {
-  align-items: center;
-  text-align: center;
-  vertical-align: middle;
+
+}
+.container {
+  width: auto;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
+.nav-bar {
+  width: 15%;
+  float: left;
+  position: relative;
+}
 
+.content {
+  margin: 0 auto;
+  padding-top: 50px;
+  position: relative;
+  float: right;
+}
+
+.title {
+  margin: 0;
+}
