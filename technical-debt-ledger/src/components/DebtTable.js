@@ -40,7 +40,8 @@ const rows = [
 
 const useStyles = makeStyles({
   table: {
-    width: 900,
+    width: '100%',
+    tableLayout: 'fixed',
   },
 });
 
@@ -48,7 +49,7 @@ function DebtTable() {
   const classes = useStyles();
 
   return (
-    <TableContainer component={Paper}>
+    <TableContainer style={{width: '100%'}} component={Paper}>
       <Table className={classes.table} aria-label="customized table">
         <TableHead>
           <TableRow>

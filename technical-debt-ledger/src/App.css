@@ -10,9 +10,10 @@ div {
 }
 
 .nav-bar {
-  width: 15%;
+  width: 100%;
   float: left;
   position: relative;
+  height: 100vh;
 }
 
 .content {
